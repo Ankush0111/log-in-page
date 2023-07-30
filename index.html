@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!--<link rel="stylesheet" href="./responsive.css">-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="full">
+      <div class="login2">
+        <div class="info">
+          <div class="logo">
+            <img src="qmail.jpg" alt="">
+          </div>
+          <br />
+         <p>Welcome to the world of Communications.</p>
+         <p><span id="element"></span></p>
+        </div>
+        <!--login container-->
+        <div class="login_contain">
+          <div class="heading">
+            <h1>Login</h1>
+          </div>
+          <div class="forms">
+            <div class="email">
+              <h4>Name</h4>
+            </div>
+            <div class="input1">
+              <input type="text" placeholder="Enter Name / mobile no." />
+            </div>
+            <div class="email">
+              <h4>Email / mobile no.</h4>
+            </div>
+            <div class="input1">
+              <input type="text" placeholder="Enter email / mobile no." />
+            </div>
+            <div class="psw">
+              <h4>Create Password</h4>
+            </div>
+            <div class="input2">
+              <input type="password" placeholder="Enter password" />
+            </div>
+              <div class="psw1">
+                <h4>Confirm Password</h4>
+              </div>
+              <div class="input_2">
+                <input type="password" placeholder="Enter password again" />
+              </div> 
+          </div>
+            <div class="checkbox">
+              <div class="input4">
+                <input type="checkbox" placeholder="Remember me"/>
+              </div>
+              <div class="remember">
+                <h4>Accept T&C</h4>
+              </div>
+            </div>
+            
+            <div class="submit">
+              <button>Login</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Send your mails fast to your recipient."],
+        typeSpeed: 40,
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(66, 29, 230);
+}
+
+.full {
+  background-color: rgb(66, 29, 230);
+  min-height: 110vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login2 {
+  display: grid;
+  grid-template-columns: auto;
+  background-color: white;
+  border-radius: 25px;
+  padding: 50px;
+  /*max-width: 90%;*/
+  width: 800px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.info {
+  text-align: center;
+}
+
+.logo img {
+  width: 251px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.info p {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.login_contain {
+  margin-top: 40px;
+  border: 2px solid white;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.forms,
+.forms1,
+.forms2,
+.forms3 {
+  margin-bottom: 20px;
+}
+
+.email h4,
+.psw h4,
+.psw1 h4,
+.gender h4 {
+  margin-bottom: 5px;
+}
+
+.forms input {
+  width: 100%;
+  height: 30px;
+  padding: 5px;
+  border: none;
+  border-bottom: 2px solid #717191;
+  outline: none;
+  transition: border-bottom-color 0.3s ease;
+}
+
+.forms input:hover{
+  cursor: pointer;
+  border-bottom: 2px solid #0f0f60;
+}
+.checkbox {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.checkbox input {
+  margin-right: 5px;
+}
+
+.submit button {
+  width: 100%;
+  height: 40px;
+  background-color: #0000ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+}
+
+.submit button:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Responsive Styles */
+
+@media only screen and (max-width: 600px) {
+  .login2 {
+    max-width: 100%;
+    width: 90%;
+    padding: 30px;
+  }
+
+  .info p {
+    font-size: 16px;
+  }
+
+  
+  
+
+  .logo img {
+    width: 185px;
+    height: auto;
+  }
+}

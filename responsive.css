@@ -1,0 +1,128 @@
+/* tablet*/
+@media screen and (max-width: 768px){
+    .full{
+      height: 178vh;
+    }
+    .login2{
+        height: 155vh;
+        width: 85%;
+        margin-left: 60px;
+    }
+    .login_contain{
+        margin-top:400px;
+        margin-right: 80px;
+        height: 85vh;
+    }
+    .info{
+        position: absolute;
+        width:470px;
+        margin-left: 90px;
+    }
+  }
+/*Mobile-L*/
+@media screen and (min-width: 425px) and (max-width: 658px){
+    .full{
+      height: 153vh;
+      width: 112.5%;
+    }
+    .login2{
+        height: 130vh;
+        width: 90%;
+        margin-left: 10px;
+    }
+    .login_contain{
+        margin-top:250px;
+        margin-right: 100px;
+        height: 85vh;
+        width: 350px;
+    }
+    .info{
+        position: absolute;
+        width:300px;
+        margin-left: 40px;
+    }
+    .info img{
+        width: 300px;
+    }
+    .info p{
+        font-size: 20px;
+    }
+    .heading {
+        margin-left: 135px;
+    }
+    .submit button {
+        margin-left: 100px;
+    }
+  }
+/* Mobile-M */
+
+@media screen and (min-width: 375px) and (max-width: 658px){
+    .full{
+        height: 153vh;
+        width: 120.5%;
+      }
+      .login2{
+          height: 130vh;
+          width: 97%;
+          margin-left: 1100px;
+      }
+      .login_contain{
+          margin-top:250px;
+          margin-right: 100px;
+          height: 85vh;
+          width: 350px;
+      }
+      .info{
+          position: absolute;
+          width:300px;
+          margin-left: 40px;
+      }
+      .info img{
+          width: 300px;
+      }
+      .info p{
+          font-size: 20px;
+      }
+      .heading {
+          margin-left: 135px;
+      }
+      .submit button {
+          margin-left: 100px;
+      }
+}
+/* Mobile-S*/
+@media screen and (min-width: 320px) and (max-width: 658px){
+    .full{
+        height: 153vh;
+        width: 145%;
+      }
+      .login2{
+          height: 130vh;
+          width: 125%;
+          margin-left: 28px;
+      }
+      .login_contain{
+          margin-top:250px;
+          margin-right: 100px;
+          height: 85vh;
+          width: 350px;
+      }
+      .info{
+          position: absolute;
+          width:300px;
+          margin-left: 40px;
+      }
+      .info img{
+          width: 300px;
+      }
+      .info p{
+          font-size: 20px;
+      }
+      .heading {
+          margin-left: 135px;
+      }
+      .submit button {
+          margin-left: 100px;
+      }
+}
+/*laptop*/
